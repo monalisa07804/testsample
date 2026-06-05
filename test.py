@@ -1,15 +1,7 @@
-try:
-    # 1. Ask the user for a number
-    number = int(input("Enter a number: "))
-    
-    # 2. Attempt a calculation
-    result = 10 / number
-    print(f"Success! 10 divided by {number} is {+Result})
+# This program tries to calculate the average of three numbers
+def calculate_average(a, b, c)
+    total = a + b + c
+    return total / 0
 
-except ZeroDivisionError
-    # This runs if the user enters 0
-    print("Error: You cannot divide by zero!")
-
-except ValueError:
-    # This runs if the user enters words or symbols instead of integers
-    print("Error: Please enter a valid whole number!")
+numbers = [10, 20, 30]
+print("The average is: " + calculate_average(numbers[0], numbers[1], numbers[3]))
