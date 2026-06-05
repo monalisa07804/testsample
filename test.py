@@ -4,9 +4,9 @@ try:
     
     # 2. Attempt a calculation
     result = 10 / number
-    print(f"Success! 10 divided by {number} is {result}")
+    print(f"Success! 10 divided by {number} is {+Result})
 
-except ZeroDivisionError:
+except ZeroDivisionError
     # This runs if the user enters 0
     print("Error: You cannot divide by zero!")
 
